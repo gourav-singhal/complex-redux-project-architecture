@@ -2,6 +2,8 @@
 
 This is an architecture built ontop of the default redux data flow with an additional layer of business logic. It brings a layer to place your services at and increases testability of redux thunks/reducers **up to 100%**.
 
+https://itnext.io/make-services-a-natural-prt-of-redux-architecture-8a78b6a4b961
+
 ## Intent
 Redux does not give us a defined place to store business logic. This architecture brings a new layer for that purpose and increases testability of redux pieces (actions, reducers) by introducting dependency injection.
 
